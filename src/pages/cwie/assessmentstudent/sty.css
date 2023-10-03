@@ -1,0 +1,17 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 1px solid #000; /* เพิ่มเส้นขอบให้กับเซลล์ของตาราง */
+    padding: 5px; /* เพิ่มระยะห่างของเนื้อหาภายในเซลล์ */
+  }
+  
+  .left-align {
+    text-align: left; /* จัดวางตัวหนังสือซ้าย */
+  }
+  
+  .left-align::before {
+    content: "\2003"; /* เพิ่มช่องว่างข้างซ้ายของข้อความเพื่อจัดการกรอกข้อความขวา */
+  }
